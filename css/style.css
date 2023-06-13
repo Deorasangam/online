@@ -1,0 +1,319 @@
+.header
+{
+ min-height:100vh;
+width:100%; 
+
+
+background-position:center;
+background-size :cover;
+position:relative;
+
+
+}
+body
+ {
+	 margin:0px;
+ }
+nav{
+	display:flex;
+	justify-content:space-between;
+	height:75px;
+	width:100%;
+}
+nav img{
+	width:100px;
+	height:70px;
+	margin-left:20px;
+}
+.page
+{
+	flex:1;
+	text-align:right;
+	
+}
+ .page ul li
+{
+	list-style:none;
+	display:inline-block;
+	padding:8px 12px;
+	position:relative;
+}
+ .page ul li a
+ {
+	 color:#fff;
+	 front-size:13px;
+	 text-decoration:none;
+ }
+.page ul li::after
+ {
+	 content:'';
+	 width:0%;
+	 height:2px;
+	 background:#f44336;
+	 display:block;
+	 margin:auto;
+	 transition:0.5s;
+ }
+ .page ul li:hover::after{
+	 width:100%;
+ }
+ .textbox
+ {
+	 width:90%;
+	 color:#fff;
+	 position:absolute;
+	 top:50%;
+	 left:50%;
+	 transform:translate(-50%,-50%);
+	 text-align:center;
+	 font-family:arial;
+	overflow:hidden;
+ }
+ h1{
+	font-size:50px; 
+	animation: 4.1s slideup  ease;
+	position:relative;
+	letter -spacing:4px;
+	overflow:hidden;
+	background:linear-gradient(50deg,#f00,#fff,#0f0);
+	background-size:80%;
+	animation: animate  3s linear infinite;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:rgba(255,255,255,0);
+ }
+ @keyframes animate
+ {
+	 0%
+	 {
+		 background-position:-500%;
+	 }
+	 100%
+	 {
+		 background-position:500%;
+	 }
+	 
+ }
+	 
+ 
+ 
+ 
+ p
+ {
+	 font-size:18px;
+	 margin:10px 0px 40px;
+	 animation: 3s slideup ease;
+	
+ }
+ r
+ {
+	 display:inline-block;
+	 text-decoration:none;
+	 color:#fff;
+	 border:1px solid #fff;
+	 padding:13px 34px;
+	 font-size:13px;
+	 background:transparent;
+	 position:relative;
+	 cursor:pointer;
+	 animation: 4s slideup  ease;
+	 border-radius:20px;
+ }
+ r:hover
+ {
+	 border:1px solid #f44336;
+	 background-color:#f44336;
+	 transition:4.6s;
+ }
+ /*@media(max-weight 700px){
+ 
+	 h{
+	font-size:70px; 
+ }
+ .page ul li{
+	 display:block;
+ }
+ .page
+ {
+	 position:absolute;
+	 background-color:#f44336;
+	 width:200px;
+	 height:100vh;
+	 top:0;
+	 right:0;
+	 text-align:left;
+	 z-index:2;
+ }
+ }*/
+ @keyframes slideup{
+	 0%
+	 {
+		 transform:translateY(250px);
+	 }
+	 100%{
+		 transfrom:translateY(0px);
+	 }
+ }
+ .main
+ {
+	 height:300px;
+	 width:1200px;
+ }
+ .back{	 
+height:400px;
+width:100%;
+margin-top:60px;
+}
+.box
+{
+	height:80px;
+	margin-top:20px;
+	position:absolute;
+	box-sizing:border-box;
+	width:300px;
+	boder:3px solid green;
+	background-color:black;
+	border-radius:60px;
+	text-align:center;
+	padding-top:15px;
+	color:white;
+	font-size:23px;
+	opacity:.9;
+	z-index:10;
+}
+.image{
+	height:200px;
+	width:300px;
+	float:right;
+	margin-right:100px;
+	margin-top:90px;
+}
+.parga
+{
+	height:300px;
+	width:500px;
+	float:left;
+	marign-left:40px;
+	margin-top:90px;
+	
+	color:#fff;
+	padding-left:20px;
+	border-sizing:border-box;
+}
+.footer
+{
+	
+	height:280px;
+	width:100%;
+	
+}
+.college
+{
+	margin-top:30px;
+	margin-left:30px;
+	float:left;
+}
+
+ .facebook
+ {
+	 
+	 width:50px;
+     margin-left:-245px;
+	margin-top:105px;
+	float:left;
+	 
+ }
+ .instagram
+ {
+	  
+	 width:50px;
+     margin-left:-162px;
+	margin-top:105px;
+	 float:left;
+ }
+ .yout
+ {
+	 height:70px;
+	  width:70px;
+     margin-left:-80px;
+	margin-top:95px;
+	 float:left;
+ }
+ .rights
+ {
+	 
+	 float:right;
+	 margin-right:40px;
+	 margin-top:-13px;
+ }
+ .phone
+ 
+ {
+ float:right;
+ margin-right:-30px;
+ margin-top:90px;
+ height:35px;
+ width:20px;
+ }
+ .tphone
+ {
+	float:right;
+ margin-right:-60px;
+ margin-top:90px;
+ height:35px;
+ width:20px;
+ font-size:20px;
+	
+	}
+	
+ .email
+ {
+	 height:30px;
+	 width:30px;
+	 float:right;
+	 margin-top:150px;
+	 margin-right:-30px;
+ }
+ .ademail
+ {
+	 float:right;
+ margin-right:-63px;
+ margin-top:150px;
+ height:35px;
+ width:20px;
+ font-size:20px;
+	
+	 
+ }
+ .address
+ {
+	 float:right;
+ margin-right:-29px;
+ margin-top:195px;
+ height:37px;
+ width:20px;
+ font-size:20px;
+ }
+ .location
+ {
+	  float:right;
+ margin-right:-80px;
+ margin-top:177px;
+ height:35px;
+ width:20px;
+ font-size:20px;
+	
+ }
+ .aloc
+ {
+	  float:right;
+ margin-right:-60px;
+ margin-top:199px;
+ height:35px;
+ width:20px;
+ font-size:17px;
+ }
+ *{
+	 font-size:15px;
+	 font-family:arial;
+	 position:relative;
+ }
